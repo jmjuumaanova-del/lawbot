@@ -53,7 +53,7 @@ async def receive_question(message: types.Message):
 
     pay_buttons = InlineKeyboardMarkup(inline_keyboard=[
         [InlineKeyboardButton(text="💳 Оплатить через M Bank", url="https://app.mbank.kg/qr/#00020101021132500012c2c.mbank.kg01020210129967048064881202111302115204999953034175405100005909ADILET%20A.6304945b")],
-        [InlineKeyboardButton(text="💳 Оплатить через O!Bank", url="https://api.dengi.o.kg/")],
+        [InlineKeyboardButton(text="💳 Оплатить через O!Bank", url="https://api.dengi.o.kg/1")],
         [InlineKeyboardButton(text="💳 Оплатить через Bakai Bank", url="https://bakai24.app")],
         [InlineKeyboardButton(text="✅ Я оплатил", callback_data="paid")]
     ])
